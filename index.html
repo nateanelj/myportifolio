@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Natenael Jijow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-br from-gray-800 via-gray-900 to-black text-gray-100 font-serif">
+    <!-- Navbar -->
+    <nav class="bg-black bg-opacity-80 fixed w-full shadow-lg z-50">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-3xl font-extrabold text-indigo-400">Natenael Jijow</h1>
+        <ul class="hidden md:flex space-x-8">
+          <li><a href="#about" class="text-gray-300 hover:text-indigo-400">About</a></li>
+          <li><a href="#skills" class="text-gray-300 hover:text-indigo-400">Skills</a></li>
+          <li><a href="#projects" class="text-gray-300 hover:text-indigo-400">Projects</a></li>
+          <li><a href="#contact" class="text-gray-300 hover:text-indigo-400">Contact</a></li>
+        </ul>
+        <button id="menu-toggle" class="md:hidden focus:outline-none">
+          <span class="block w-6 h-0.5 bg-indigo-400 mb-1"></span>
+          <span class="block w-6 h-0.5 bg-indigo-400 mb-1"></span>
+          <span class="block w-6 h-0.5 bg-indigo-400"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-indigo-900 via-purple-900 to-black">
+      <div class="flex flex-col items-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrE0RRBsDSLsq1eGInfI72P9JQYTX1KEJfw&s" alt="Location Reference" class="w-48 h-48 rounded-full border-4 border-indigo-400 shadow-lg mb-6" />
+        <h2 class="text-xl text-indigo-400 tracking-widest">Discover My Portfolio</h2>
+        <h1 class="text-7xl font-extrabold text-white mt-6">Natenael Jijow</h1>
+        <p class="text-lg text-gray-400 mt-6 max-w-2xl">Empowering businesses and individuals with modern, user-friendly web solutions that captivate and inspire.</p>
+        <div class="mt-8 flex space-x-8">
+          <a href="./assets/resume-example.pdf" target="_blank" class="bg-indigo-500 hover:bg-indigo-400 px-10 py-4 text-white rounded-full shadow-lg">Resume</a>
+          <a href="#contact" class="border-2 border-indigo-500 px-10 py-4 text-indigo-500 rounded-full hover:bg-indigo-500 hover:text-white">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-bl from-gray-900 via-gray-800 to-black">
+      <div class="container mx-auto text-center">
+        <h2 class="text-5xl font-bold text-indigo-400 mb-8">About Me</h2>
+        <p class="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
+          I am a passionate and detail-oriented web developer who specializes in creating intuitive and visually stunning digital experiences. With a strong foundation in modern web technologies and a flair for creativity, I aim to bring your ideas to life.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gradient-to-r from-black via-gray-800 to-gray-900">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-5xl font-bold text-indigo-400 mb-10">Skills</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl text-white font-semibold">HTML & CSS</h3>
+            <p class="text-gray-400 mt-4">Building elegant, responsive layouts with precision.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl text-white font-semibold">JavaScript</h3>
+            <p class="text-gray-400 mt-4">Creating dynamic and interactive web applications.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl text-white font-semibold">React</h3>
+            <p class="text-gray-400 mt-4">Developing scalable, reusable components.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl text-white font-semibold">Node.js</h3>
+            <p class="text-gray-400 mt-4">Building robust backend systems with ease.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl text-white font-semibold">Express.js</h3>
+            <p class="text-gray-400 mt-4">Creating efficient APIs and server-side applications.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl text-white font-semibold">PostgreSQL</h3>
+            <p class="text-gray-400 mt-4">Designing and managing relational databases.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gradient-to-br from-black to-gray-900">
+      <div class="container mx-auto text-center">
+        <h2 class="text-5xl font-bold text-indigo-400 mb-12">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl font-semibold text-white">Portfolio Website</h3>
+            <p class="text-gray-400 mt-4">Showcasing my work with a modern design.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl font-semibold text-white">E-commerce Platform</h3>
+            <p class="text-gray-400 mt-4">A feature-rich and responsive online store.</p>
+          </div>
+          <div class="bg-gray-800 p-10 rounded-lg shadow-xl transform hover:scale-105 transition-transform">
+            <h3 class="text-2xl font-semibold text-white">Task Manager</h3>
+            <p class="text-gray-400 mt-4">Boosting productivity with advanced features.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-t from-black via-gray-900 to-gray-800">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-5xl font-bold text-indigo-400 mb-10">Contact Me</h2>
+        <p class="text-lg text-gray-300">Let’s work together to create something amazing! Reach out anytime.</p>
+        <div class="mt-8">
+          <p class="text-gray-400">Email: <a href="mailto:natnaelferweyni@gmail.com" class="text-indigo-400 hover:underline">natnaelferweyni@gmail.com</a></p>
+          <p class="text-gray-400">LinkedIn: <a href="https://linkedin.com" class="text-indigo-400 hover:underline">Natenael Jijow</a></p>
+          <p class="text-gray-400">GitHub: <a href="https://https://github.com/nateanelj" class="text-indigo-400 hover:underline">Natenael Jijow</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-90 py-6 text-gray-400 text-center">
+      <p>&copy; 2023 Natenael Jijow. Designed and built with passion.</p>
+    </footer>
+  </body>
+</html>
